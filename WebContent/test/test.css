@@ -1,0 +1,134 @@
+@charset "EUC-KR";
+body,html{
+	margin: 0px;
+	background-color: rgb(240,255,255);
+	height: 100%;
+}
+
+.nav{
+	height:50px;
+	display: flex;
+	justify-content: space-between;
+	align-items:center;
+	background-color: rgb(165,42,42);
+}
+footer{
+	background-color: rgb(100,149,237);
+    width: 100%;
+    height: 50px;
+    color:white;
+    text-align: center;
+    position:absolute;
+    bottom: 0;
+}
+.a_white{
+	color: white;
+	text-decoration: none;
+	padding:30px;
+}
+
+
+table {
+    width: 700px;
+    margin: auto;
+    border-top: 3px solid gray;
+    border-bottom: 3px solid gray;
+}
+
+td {
+    padding: 10px;
+}
+
+
+label.title {
+   
+    background-color: #c69;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+
+    width: 80%;
+    display: inline-block;
+    padding: 10px;
+}
+
+button {
+    padding: 7px 15px;
+    margin: 7px;
+    background-color: rgb(194, 14, 104);
+    border: none;
+    color: white;
+    font-size: 1, 1em;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+button:hover {
+    background-color: rgb(75, 7, 52);
+   
+}
+
+label.mpt {
+    cursor: pointer;
+}
+
+tr:last-child>td {
+    text-align: center;
+}
+
+input[type=text]
+ {
+    width: 60%;
+}
+
+input{
+    padding: 6px;
+    border-radius: 6px;
+    border: 1px solid gray;
+}
+h3{
+	text-align: center;
+}
+	.box{
+	border: 2px solid black;
+	}
+
+  div.gallery {
+            text-align: center;
+            float: left;
+        }
+
+  div.gallery:hover {
+            border: 1px solid #777;
+            margin: -1px ;
+        }
+
+div.gallery img {
+            width: 160px;
+            height: 150px;
+            object-fit: cover;
+        }
+         div.desc {
+            
+            width:160px;
+            height:90px;
+            padding: 15px;
+            text-align: center;
+            font-size: 0.8em;
+            object-fit: cover;
+         }
+        fieldset{
+        margin:auto;
+        margin-top:50px;
+        text-align: center;
+        width: auto;
+        max-width: 950px;
+          
+        }
+      #wrap {
+    min-height: 100%;
+    position: relative;
+    padding-bottom:30px 
+    
+}
